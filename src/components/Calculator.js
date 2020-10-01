@@ -145,7 +145,6 @@ export default function Calculator() {
             ></input>
           </div>
         </div>
-        <img src="https://github.com/jonystn/react-calculator/blob/master/src/images/logo.png" alt="Logo" />
       </div>
     </div>
   );
