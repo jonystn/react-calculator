@@ -7,7 +7,7 @@ import {
   faMinus,
   faSquareRootAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import logo from "../images/logo.png";
+import logo from "./images/logo.png";
 
 // Icons
 const divide = <FontAwesomeIcon icon={faDivide} style={{ color: "#1AAFBE" }} />;
