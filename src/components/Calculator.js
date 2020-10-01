@@ -7,7 +7,6 @@ import {
   faMinus,
   faSquareRootAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import logo from "./images/logo.png";
 
 // Icons
 const divide = <FontAwesomeIcon icon={faDivide} style={{ color: "#1AAFBE" }} />;
@@ -146,7 +145,7 @@ export default function Calculator() {
           </div>
         </div>
         <img
-          src="https://github.com/jonystn/react-calculator/blob/master/src/images/logo.png"
+          src="https://jonystn.github.io/react-calculator/images/logo.png"
           alt="Logo"
         />
       </div>
