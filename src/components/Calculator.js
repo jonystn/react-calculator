@@ -145,8 +145,10 @@ export default function Calculator() {
           </div>
         </div>
         <img
-          src="https://jonystn.github.io/react-calculator/images/logo.png"
+          src="https://altagram.com/wp-content/themes/betheme-child/img/Logo_Altagram.svg"
           alt="Logo"
+          height="80px"
+          style={{ opacity: "0.4" }}
         />
       </div>
     </div>
