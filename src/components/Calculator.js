@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Calculator.scss";
-import { sqrt } from "mathjs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDivide,
@@ -8,6 +7,7 @@ import {
   faMinus,
   faSquareRootAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import logo from "../images/logo.png";
 
 // Icons
 const divide = <FontAwesomeIcon icon={faDivide} style={{ color: "#1AAFBE" }} />;
@@ -145,7 +145,7 @@ export default function Calculator() {
             ></input>
           </div>
         </div>
-        <img src="../images/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
     </div>
   );
